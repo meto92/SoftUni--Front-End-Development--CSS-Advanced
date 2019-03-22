@@ -1,0 +1,19 @@
+:root {
+    --small-fsize: 12px;
+    --normal-fsize: 14px;
+    --big-fsize: 16px;
+    --huge-fsize: 18px;
+    
+    --h1-fsize: 2.4883em;
+    --h2-fsize: 2.0736em;
+    --h3-fsize: 1.728em;
+    --h4-fsize: 1.44em;
+    --h5-fsize: 1.2em;
+    --h6-fsize: 1em;
+
+    --base-line-height: 1.5;
+    --content-ffamily: Helvetica, sans-serif;
+    --headings-line-height: 1.2;
+    --base-whitespace: 1.5em;
+    --headings-whitespace: 0.5em;
+}

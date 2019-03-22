@@ -1,0 +1,26 @@
+html {
+    font: 16px/1.5 var(--content-ffamily);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--headings-ffamily);
+    line-height: 1.2;
+    margin: 0 0 0.5em;
+}
+
+body {
+    padding: 2rem;
+}
+
+article {
+    margin: 0 auto;
+    max-width: 66%;
+}
+
+article > header {
+    text-align: center;
+}
+
+p {
+    margin: 0 0 1.5em;
+}

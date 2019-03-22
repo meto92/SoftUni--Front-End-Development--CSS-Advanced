@@ -1,0 +1,63 @@
+html {
+    font: var(--small-fsize)/var(--base-line-height) Helvetica, sans-serif;
+}
+
+@media screen and (min-width: 500px) {
+    html {
+        font-size: var(--normal-fsize);
+    }
+}
+
+@media screen and (min-width: 700px) {
+    html {
+        font-size: var(--big-fsize);
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    html {
+        font-size: var(--huge-fsize);
+    }
+}
+
+body {
+    padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: var(--headings-line-height);
+    margin-bottom: var(--headings-whitespace);
+}
+
+h1 {
+    font-size: var(--h1-fsize);
+}
+
+h2 {
+    font-size: var(--h2-fsize);
+}
+
+h3 {
+    font-size: var(--h3-fsize);
+}
+
+h4 {
+    font-size: var(--h4-fsize);
+}
+
+h5 {
+    font-size: var(--h5-fsize);
+}
+
+h6 {
+    font-size: var(--h6-fsize);
+}
+
+p {
+    margin-bottom: var(--base-whitespace);
+}
+
+ul {
+    list-style-position: inside;
+    padding: 0 0 var(--base-whitespace) var(--base-whitespace);
+}

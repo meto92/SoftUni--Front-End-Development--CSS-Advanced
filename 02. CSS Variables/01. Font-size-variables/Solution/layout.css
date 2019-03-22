@@ -1,0 +1,22 @@
+html {
+    font: 16px/1.5 Verdanna, sans-serif;
+}
+
+main {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: var(--h1-size);
+    text-align: center;
+}
+
+h3 {
+    font-size: var(--h3-size);
+    font-style: italic;
+}
+
+p {
+    font-size: var(--p-size);
+}
