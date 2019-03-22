@@ -1,1 +1,1 @@
-# SoftUni--Front-End-Development--CSS-Advanced
+# SoftUni - Front-End Development - CSS Advanced
