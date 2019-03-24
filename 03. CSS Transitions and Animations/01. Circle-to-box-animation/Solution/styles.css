@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 50%;
+    background: #FE0800;
+    animation-name: transform-to-square;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+	animation-timing-function: ease-out;
+}
+
+@keyframes transform-to-square {
+    to {
+        width: 30vmin;
+        height: 30vmin;
+        border-radius: 0;
+        background: #FE9A00;
+    }
+}

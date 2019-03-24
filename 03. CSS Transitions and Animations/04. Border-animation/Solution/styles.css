@@ -1,0 +1,27 @@
+html {
+    font: 16px/1.5 Verdana, sans-serif;
+}
+
+body {
+    background: #eee;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 0.5em 1em;
+    margin-right: 17px;
+    color: #2D2D2D;
+    text-transform: uppercase;
+    outline: 5px solid darkblue;
+    transition: outline 0.5s;
+}
+
+a:hover {
+    outline-width: 10px;
+}
